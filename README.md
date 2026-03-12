@@ -4,7 +4,7 @@ This repository contains a 15-step pipeline for downloading, geolocating walking
 
 ### Folder layout
 
-- **`notebooks/`**: Main tutorial steps `01`–`13`.
+- **`notebooks/`**: Main tutorial steps `01`–`15`.
 - **`data/`**:
   - `videos/`: Raw videos and extracted audio/video splits.
   - `image/`: Extracted frames, depth, OCR, and map-matching results.
@@ -18,7 +18,7 @@ This repository contains a 15-step pipeline for downloading, geolocating walking
 
 You can adapt the folder names, but then update the corresponding `Path` definitions at the top of each step.
 
-### Pipeline overview (steps 1–13)
+### Pipeline overview (steps 1–15)
 
 - **01 – Road network preprocessing (`01_road_network_preprocessing.py`)**
   - Clean and simplify the OSM road network, export an unsplit GraphML network and a 50 m split version (GraphML + SHP).
@@ -117,6 +117,7 @@ conda activate svv-action
 conda env create -f envs/environment-svv-agg.yml
 conda activate svv-agg
 ```
+
 
 
 
