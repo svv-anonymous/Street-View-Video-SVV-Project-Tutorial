@@ -1,6 +1,6 @@
 ## Street View Video (SVV) Project Tutorial
 
-This repository contains a 13-step pipeline for downloading, geolocating walking videos and extracting multimodal information. 
+This repository contains a 15-step pipeline for downloading, geolocating walking videos and extracting multimodal information. 
 
 ### Folder layout
 
@@ -117,6 +117,7 @@ conda activate svv-action
 conda env create -f envs/environment-svv-agg.yml
 conda activate svv-agg
 ```
+
 
 
 
