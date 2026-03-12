@@ -1,0 +1,12 @@
+name: svv-agg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - geopandas
+  - shapely
+  - tqdm
+
+

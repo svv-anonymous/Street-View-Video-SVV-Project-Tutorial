@@ -1,0 +1,17 @@
+name: svv-geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - geopandas
+  - osmnx
+  - networkx
+  - shapely
+  - rapidfuzz
+  - geopy
+  - pandas
+  - numpy
+  - tqdm
+  - pip
+  - pip:
+      - gotrackit

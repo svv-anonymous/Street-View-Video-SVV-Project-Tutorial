@@ -1,0 +1,17 @@
+name: svv-vision
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+      - opencv-python
+      # Install a PyTorch build appropriate for your CUDA / CPU:
+      # See https://pytorch.org/get-started/locally/
+      - torch
+      # Choose either paddlepaddle (CPU) or paddlepaddle-gpu for your platform.
+      - paddlepaddle
+      - paddleocr

@@ -1,0 +1,17 @@
+name: svv-video-audio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - tqdm
+  - ffmpeg
+  - pip
+  - pip:
+      - yt-dlp
+      - librosa
+      - panns-inference
+      # Install a PyTorch build appropriate for your CUDA / CPU:
+      # See https://pytorch.org/get-started/locally/
+      - torch
